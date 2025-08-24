@@ -5,25 +5,33 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-$mail = new PHPMailer(true);
-
-function sendMailOrder($mail, $receiver, $content) {
+function sendMailOrder($receiver, $content) {
     try {
-         //Server settings
+        $mail = new PHPMailer(true);
+        
+        //Server settings for Gmail
         $mail->isSMTP();     
         $mail->CharSet  = "utf-8";                                     
-        $mail->SMTPDebug = 0;
         $mail->SMTPAuth   = true;                                  
-        $mail->SMTPSecure = "tls"; //ssl          
+        $mail->SMTPSecure = "tls";          
         $mail->Host       = 'smtp.gmail.com';                     
-        $mail->Port       = 587; //465                                    
-        $mail->Username   = 'hau.nguyenbk8786@gmail.com';                    
-        $mail->Password   = 'ufcvgxlxcnzztlyu';                              
+        $mail->Port       = 587; // Correct port for Gmail TLS                                    
+        $mail->Username   = 'minhtiendh2018@gmail.com';                     
+        $mail->Password   = 'yokk pmbn cltp hfpn';// google app password                            
+        
+        // Additional Gmail settings
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
         
         //Recipients
-        $mail->setFrom('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
 
         //Content
         $mail->isHTML(true);                                  
@@ -39,32 +47,45 @@ function sendMailOrder($mail, $receiver, $content) {
                                 </body>
                             </html>';
 
-        $mail->send();
-        return true;
+        $result = $mail->send();
+        
+        return $result;
 
-        } catch (Exception $e) {
-            return false;
+    } catch (Exception $e) {
+        if (isset($mail)) {
+            error_log("PHPMailer ErrorInfo: " . $mail->ErrorInfo);
+        }
+        return false;
     }
-
 }
 
-function verifyEmail($mail, $receiver, $verifyCode) {
+function verifyEmail($receiver, $verifyCode) {
     try {
-    //Server settings
+        $mail = new PHPMailer(true);
+        
+        //Server settings for Gmail
         $mail->isSMTP();     
         $mail->CharSet  = "utf-8";                                     
-        $mail->SMTPDebug = 0;
         $mail->SMTPAuth   = true;                                  
-        $mail->SMTPSecure = "tls"; //ssl          
+        $mail->SMTPSecure = "tls";          
         $mail->Host       = 'smtp.gmail.com';                     
-        $mail->Port       = 587; //465                                    
-        $mail->Username   = 'hau.nguyenbk8786@gmail.com';                    
-        $mail->Password   = 'ufcvgxlxcnzztlyu';                              
+        $mail->Port       = 587; // Correct port for Gmail TLS                                    
+        $mail->Username   = 'minhtiendh2018@gmail.com';                     
+        $mail->Password   = 'yokk pmbn cltp hfpn';                              
+        
+        // Additional Gmail settings
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
         
         //Recipients
-        $mail->setFrom('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
 
         //Content
         $mail->isHTML(true);                                  
@@ -82,31 +103,46 @@ function verifyEmail($mail, $receiver, $verifyCode) {
                                 </body>
                             </html>';
 
-        $mail->send();
-        return true;
-        } catch (Exception $e) {
-            return false;
+        $result = $mail->send();
+        
+        return $result;
+        
+    } catch (Exception $e) {
+        error_log("PHPMailer Exception in verifyEmail: " . $e->getMessage());
+        if (isset($mail)) {
+            error_log("PHPMailer ErrorInfo: " . $mail->ErrorInfo);
+        }
+        return false;
     }
-
 }
 
-function resetPassword($mail, $receiver) {
+function resetPassword($receiver) {
     try {
-    //Server settings
+        $mail = new PHPMailer(true);
+        
+        //Server settings for Gmail
         $mail->isSMTP();     
         $mail->CharSet  = "utf-8";                                     
-        $mail->SMTPDebug = 0;
         $mail->SMTPAuth   = true;                                  
-        $mail->SMTPSecure = "tls"; //ssl          
+        $mail->SMTPSecure = "tls";          
         $mail->Host       = 'smtp.gmail.com';                     
-        $mail->Port       = 587; //465                                    
-        $mail->Username   = 'hau.nguyenbk8786@gmail.com';                    
-        $mail->Password   = 'ufcvgxlxcnzztlyu';                              
+        $mail->Port       = 587; // Correct port for Gmail TLS                                    
+        $mail->Username   = 'minhtiendh2018@gmail.com';                     
+        $mail->Password   = 'yokk pmbn cltp hfpn';                              
+        
+        // Additional Gmail settings
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
         
         //Recipients
-        $mail->setFrom('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('hau.nguyenbk8786@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
 
         //Content
         $mail->isHTML(true);                                  
@@ -122,12 +158,17 @@ function resetPassword($mail, $receiver) {
                                 </body>
                             </html>';
 
-        $mail->send();
-        return true;
-        } catch (Exception $e) {
-            return false;
+        $result = $mail->send();
+        
+        return $result;
+        
+    } catch (Exception $e) {
+        error_log("PHPMailer Exception in resetPassword: " . $e->getMessage());
+        if (isset($mail)) {
+            error_log("PHPMailer ErrorInfo: " . $mail->ErrorInfo);
+        }
+        return false;
     }
-
 }
 
 ?>

@@ -66,7 +66,7 @@ include_once './helper/sendMail.php';
               ];
               // print_r($receiver);
               // exit;
-              verifyEmail($mail, $receiver, $verifyCode);
+              verifyEmail($receiver, $verifyCode);
               header("Location: ./auth/register.php?email=$email");
           } else {
               echo "Error: ". $conn->error;

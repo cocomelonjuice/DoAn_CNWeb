@@ -81,7 +81,7 @@
                     <p>Phương thức thanh toán: '.$paymentMethod.'</p>
                     <p>Ngày đặt hàng: 25/10/2022</p>
                     <p>Địa chỉ giao hàng: '.$nameReceiver.', '.$phoneReceiver.', '.$addressReceiver.'</p>';
-            sendMailOrder($mail, $receiver, $order);
+            sendMailOrder($receiver, $order);
 
             $success = 1; 
             unset($_SESSION['cart']); 

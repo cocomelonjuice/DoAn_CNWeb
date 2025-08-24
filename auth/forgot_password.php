@@ -26,7 +26,7 @@
                     'name'=> $name,
                     'password'=> $password  
                 ];
-                resetPassword($mail, $receiver);
+                resetPassword($receiver);
                 $_SESSION['success'] = 'Mật khẩu mới đã gửi về email, vui lòng đăng nhập lại';        
                 header('location: ../customer/login.php');
             } else {
