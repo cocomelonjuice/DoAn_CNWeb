@@ -29,21 +29,21 @@ function sendMailOrder($receiver, $content) {
         );
         
         //Recipients
-        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'T Coffee');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'T Coffee');
 
         //Content
         $mail->isHTML(true);                                  
-        $mail->Subject = 'TheCoffeeHouse221 thông báo xác nhận đơn hàng #'.$receiver['id'];
+        $mail->Subject = 'T Coffee thông báo xác nhận đơn hàng #'.$receiver['id'];
         $mail->Body    = ' <html>
                                 <body>
                                     <p>Xin chào quý khách <b>'.$receiver['name'].',</b></p>
-                                    <p>Cảm ơn quý khách đã đặt hàng tại <a href="#">TheCoffeeHouse221</a>.</p>
+                                    <p>Cảm ơn quý khách đã đặt hàng tại <a href="#">T Coffee</a>.</p>
                                     <p>Đơn hàng quý khách sẽ được gửi đi sau khi nhân viên xác nhận qua điện thoại, email,... Vui lòng không tra lời qua email này. Mọi chi tiết xin liên hệ 0909 1999 hoặc 1900 1900</p>
 
                                     <div>'.$content.'</div>
-                                    <p><b style="color: blue">TheCoffeeHouse221</b></p>
+                                    <p><b style="color: blue">T Coffee</b></p>
                                 </body>
                             </html>';
 
@@ -83,13 +83,13 @@ function verifyEmail($receiver, $verifyCode) {
         );
         
         //Recipients
-        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'T Coffee');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'T Coffee');
 
         //Content
         $mail->isHTML(true);                                  
-        $mail->Subject = 'TheCoffeeHouse221 xác thực tải khoản';
+        $mail->Subject = 'T Coffee xác thực tải khoản';
         $mail->Body    = ' <html>
                                 <body>
                                     <p>Thông tin tài khoản</p>
@@ -99,7 +99,7 @@ function verifyEmail($receiver, $verifyCode) {
                                     <p>Mã xác thực kích hoạt tài khoản</p>
                                     <div><b>'.$verifyCode.'</b></div>
                                     <p>Nếu quý khách không thực hiên được, liên hệ: 0909 1900 99</p>
-                                    <p><b style="color: blue">TheCoffeeHouse221</b></p>
+                                    <p><b style="color: blue">T Coffee</b></p>
                                 </body>
                             </html>';
 
@@ -140,13 +140,13 @@ function resetPassword($receiver) {
         );
         
         //Recipients
-        $mail->setFrom('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->setFrom('minhtiendh2018@gmail.com', 'T Coffee');
         $mail->addAddress($receiver['email'], $receiver['name']);     
-        $mail->addReplyTo('minhtiendh2018@gmail.com', 'TheCoffeeHouse221');
+        $mail->addReplyTo('minhtiendh2018@gmail.com', 'T Coffee');
 
         //Content
         $mail->isHTML(true);                                  
-        $mail->Subject = 'TheCoffeeHouse221 cập nhật thông tin tài khoản';
+        $mail->Subject = 'T Coffee cập nhật thông tin tài khoản';
         $mail->Body    = ' <html>
                                 <body>
                                     <p>Thông tin tài khoản</p>
@@ -154,7 +154,7 @@ function resetPassword($receiver) {
                                     <p>Mật khẩu: <b style="color:blue">'.$receiver['password'].'</b></p>
                                     <p>Quý khách vui lòng đăng nhập lại</p>
                                     <p>Nếu quý khách không thực hiên được, liên hệ: 0909 1900 99</p>
-                                    <p><b style="color: blue">TheCoffeeHouse221</b></p>
+                                    <p><b style="color: blue">T Coffee</b></p>
                                 </body>
                             </html>';
 

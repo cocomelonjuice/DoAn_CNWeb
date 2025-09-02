@@ -106,7 +106,6 @@ require_once './db/DB.php';
                                             }
                                         ?>
                                     </div>
-                                    <div class="btn btn-outline-danger"><i class=" fa-light fa-heart"></i> </div>
                                 </div>
                                 <p>
                                 <?php

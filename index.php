@@ -38,7 +38,7 @@ require_once './db/DB.php';
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center" style="height: 300px;">
                         <div class="text-align-left align-self-center">
-                            <h1 class="h1 text-warning"><strong>TheCoffee-shop</strong> eCommerce</h1>
+                            <h1 class="h1 text-warning"><strong>T Coffee</strong> eCommerce</h1>
                             <div class="h2">Chất lượng - giá cả hợp lý</div>
                             <p>
                                 Giá tốt - giao hàng - bảo hành toàn quốc 
@@ -60,7 +60,7 @@ require_once './db/DB.php';
                             <h1 class="h1 text-warning">Tự tin với chất lượng</h1>
                             <h3 class="h2">Nâng cao chất lượng Cafe ngang tầm quốc tế</h3>
                             <p>
-                                <strong>TheCoffee-shop</strong> công bố sở hữu vùng nguyên liệu nguyên liệu có chất lượng quốc tế.
+                                <strong>T Coffee</strong> công bố sở hữu vùng nguyên liệu nguyên liệu có chất lượng quốc tế.
                             </p>
                         </div>
                     </div>
@@ -89,68 +89,29 @@ require_once './db/DB.php';
 </div>
 
 <div class="container-fluid bg-warning bg-opacity-10 pt-5 pb-5">
-    <!-- team member -->
-    <div class="container mb-5">
-        <div class="row text-center mb-2">
-            <div class="h2 text-warning">MEMBER</div>
-        </div>
-        <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="text-center">
-                    <a href="#"><img alt="AVT" width="200" height="200" src="<?php echo $rootPath?>/public/img/profile1.jpg" class="rounded-circle mb-3 mt-3" /></a>
-                    <p class="text-dark">Nguyễn Đức Hậu</p>
-                    <!-- <a class="btn btn-primary text-light" href="#">Contact</a> -->
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="text-center">
-                    <a href="#"><img alt="AVT" width="200" height="200" src="<?php echo $rootPath?>/public/img/profile2.jpeg" class="rounded-circle mb-3 mt-3" /></a>
-                    <p class="text-dark">Trần Thế Quang</p>
-                    <!-- <a class="btn btn-primary text-light" href="#">Contact</a> -->
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="text-center">
-                    <a href="#"><img alt="AVT" width="200" height="200" src="<?php echo $rootPath?>/public/img/profile2.jpeg"" class="rounded-circle mb-3 mt-3" /></a>
-                    <p class="text-dark">Võ Trịnh Xuân Nguyên</p>
-                    <!-- <a class="btn btn-primary text-light" href="#">Contact</a> -->
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="text-center">
-                    <a href="#"><img alt="AVT" width="200" height="200" src="<?php echo $rootPath?>/public/img/profile4.jpg" class="rounded-circle mb-3 mt-3" /></a>
-                    <p class="text-dark">Lý Gia Huy</p>
-                    <!-- <a class="btn btn-primary text-light" href="#">Contact</a> -->
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- best seller -->
     <div class="container mb-5">
         <div class="row text-center">
-            <div class="h3 text-warning mb-2">BEST SELLER OF THE MONTH</div>
+            <div class="h3 text-warning mb-2">Bán chạy tuần này</div>
         </div>
         <div class="row">
             <div class="col-xl-4">
                 <div class="text-center">
                     <a href="#"><img alt="topProduct" width="200" src="./public/img/products/banhKimQuat.jpg" class="rounded-circle mb-3 mt-3 border border-2" /></a>
                     <p class="h4 text-dark">Bánh mì Kim Quất</p>
-                    <a class="btn btn-success btn-lg" href="#">Buy Now</a>
                 </div>
             </div>
             <div class="col-xl-4">
                 <div class="text-center">
                     <a href="#"><img alt="topProduct" width="200" src="./public/img/products/banhMiVN.jpg" class="rounded-circle mb-3 mt-3 border border-2" /></a>
                     <p class="h4 text-dark">Bánh mì VN</p>
-                    <a class="btn btn-success btn-lg" href="#">Buy Now</a>
                 </div>
             </div>
             <div class="col-xl-4">
                 <div class="text-center">
                     <a href="#"><img alt="topProduct" width="200" src="./public/img/products/coffeeBacSiu.jpg" class="rounded-circle mb-3 mt-3 border border-2" /></a>
                     <p class="h4 text-dark">Bạc sỉu</p>
-                    <a class="btn btn-success btn-lg" href="#">Buy Now</a>
                 </div>
             </div>
         </div>

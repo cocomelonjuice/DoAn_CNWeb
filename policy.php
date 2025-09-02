@@ -62,24 +62,9 @@ require_once './db/DB.php';
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.289</td>
-                                        <td>Nguyễn Đức Hậu</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.199</td>
-                                        <td>Trần Thế Quang</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.200</td>
-                                        <td>Võ Trịnh Xuân Nguyên</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.888</td>
-                                        <td>Lý Gia Huy</td>
+                                        <td scope="row">VCB</td>
+                                        <td>0786.892.119.909</td>
+                                        <td>Nguyễn Minh Tiến</td>
                                     </tr>
                                 </tbody>
                             </table>

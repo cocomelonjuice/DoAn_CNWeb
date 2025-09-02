@@ -3,19 +3,19 @@
         <div class="row">
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-warning border-bottom pb-3 border-light logo user-select-none">GunKK Blog</h2>
+                <h2 class="h2 text-warning border-bottom pb-3 border-light logo user-select-none">T Coffee</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        KTX khu B, Bình Dương, Việt Nam
+                        TPHCM, Việt Nam
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none text-light" href="tel:+842848786">(+84) 2848786</a>
+                        <a class="text-decoration-none text-light" href="tel:+84765162701">(+84) 765162701</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none text-light" href="mailto:hau.nguyenbk8786@gmail.com">hau.nguyenbk8786@gmail.com</a>
+                        <a class="text-decoration-none text-light" href="mailto:blaugrana3ds@gmail.com">blaugrana3ds@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -48,10 +48,10 @@
             <div class="col-auto me-auto">
                 <ul class="list-inline text-left footer-icons">
                     <li class="list-inline-item text-center">
-                        <a class="text-color-primary text-light text-decoration-none rounded-circle text-center" target="_blank" href="https://www.facebook.com/GUNKK.2510"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        <a class="text-color-primary text-light text-decoration-none rounded-circle text-center" target="_blank" href="https://www.google.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                     </li>
                     <li class="list-inline-item text-center">
-                        <a class="text-color-primary text-light text-decoration-none" target="_blank" href="https://github.com/GunKK"><i class="fa-brands fa-github fa-lg fa-fw"></i></a>
+                        <a class="text-color-primary text-light text-decoration-none" target="_blank" href="https://www.google.com/"><i class="fa-brands fa-github fa-lg fa-fw"></i></a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
             <div class="row pt-2">
                 <div class="col-12">
                     <p class="text-center text-light user-select-none">
-                        Copyright &copy; 2022 Hau Duc Nguyen 
+                        Copyright &copy; 2025
                     </p>
                 </div>
             </div>
