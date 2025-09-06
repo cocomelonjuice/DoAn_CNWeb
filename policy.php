@@ -85,7 +85,7 @@ require_once './db/DB.php';
                             </p>
                             <p class="h6">2.Thanh toán đơn hàng</p>
                             <p>
-                                Khách hàng cần <a href="#">đăng nhập</a> để đặt hàng (<a href="<?php echo $rootPath?>/sign_up.php">đăng kí</a> nếu bạn chưa có tài khoản). Sau đó bạn nhập các thông tin cần thiết theo mẫu để nhân viên xác nhận đơn hàng. 
+                                Khách hàng cần <a href="<?php echo $rootPath?>/customer/login.php">đăng nhập</a> để đặt hàng (<a href="<?php echo $rootPath?>/sign_up.php">đăng kí</a> nếu bạn chưa có tài khoản). Sau đó bạn nhập các thông tin cần thiết theo mẫu để nhân viên xác nhận đơn hàng. 
                             </p>
                         </div>
                     </div>

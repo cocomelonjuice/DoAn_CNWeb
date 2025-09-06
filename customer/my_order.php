@@ -44,7 +44,7 @@
                 <thead class="table-warning">
                     <tr>
                         <th scope="col">STT</th>
-                        <th scope="col">#Mã đơn</th>
+                        <th scope="col">Mã đơn</th>
                         <th scope="col">Người nhận</th>
                         <th scope="col">Nơi giao</th>
                         <th scope="col">Tổng tiền</th>

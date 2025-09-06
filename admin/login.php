@@ -48,7 +48,7 @@ if (isset($_POST['login_ad'])) {
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-          <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Login Admin</p>
+          <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Đăng nhập Admin</p>
           <?php 
             if (isset($_COOKIE['thongBao'])) {
               echo '<p class="alert alert-success">'.$_COOKIE['thongBao'].'</p>';
@@ -73,7 +73,7 @@ if (isset($_POST['login_ad'])) {
                     }
                 ?>
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-              <input type="submit" name="login_ad" value="Login" class="btn btn-primary" data-disable-with="Create account" />
+              <input type="submit" name="login_ad" value="Đăng nhập" class="btn btn-primary" data-disable-with="Create account" />
             </div>
         </form>        
     </div>

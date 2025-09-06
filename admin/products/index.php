@@ -72,7 +72,7 @@ require_once '../../db/DB.php';
 						<table class="table">
 							<thead class="table-warning">
 								<tr>
-									<th scope="col">#id</th>
+									<th scope="col">STT</th>
 									<th scope="col">Tên sản phẩm</th>
 									<th scope="col">Giá</th>
 									<th scope="col">Giá giảm</th>

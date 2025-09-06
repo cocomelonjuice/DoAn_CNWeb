@@ -79,7 +79,7 @@ require_once '../db/DB.php';
 					<input type="password" class="form-control" id="newPassword" name="newPassword" placeholder="Nhập mật khẩu mới">
 				</div>
 				<div class="text-center">
-					<input type="submit" class="btn btn-success" value="Thực thi" name="change">
+					<input type="submit" class="btn btn-success" value="Cập nhật" name="change">
 				</div>
 			</form>
 		</div>

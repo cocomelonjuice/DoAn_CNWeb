@@ -93,7 +93,6 @@ if ($product->num_rows > 0) {
                                             <label class="form-label" for="cart_item_product_stock">Chọn size</label>
                                             </li>
                                                 <select class="form-select" name="" id="cart_item_product_stock">
-                                                    <option value="" label=" "></option>
                                                     <option value="">Size S</option>
                                                     <option value="">Size M</option>
                                                     <option value="">Size L</option>
@@ -107,7 +106,7 @@ if ($product->num_rows > 0) {
                                             </li>
                                             <li class="list-inline-item"><span class="btn btn-secondary" id="btn-minus">-</span></li>
                                             <li class="list-inline-item">
-                                                <input type="number" class="form-control" name="quantity">
+                                                <input type="number" class="form-control" name="quantity" value="1">
                                             </li>
                                             <li class="list-inline-item"><span class="btn btn-secondary" id="btn-plus">+</span></li>
                                         </ul>

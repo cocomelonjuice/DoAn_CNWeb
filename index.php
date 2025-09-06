@@ -38,11 +38,11 @@ require_once './db/DB.php';
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center" style="height: 300px;">
                         <div class="text-align-left align-self-center">
-                            <h1 class="h1 text-warning"><strong>T Coffee</strong> eCommerce</h1>
+                            <h1 class="h1 text-warning"><strong>T Coffee</strong></h1>
                             <div class="h2">Chất lượng - giá cả hợp lý</div>
                             <p>
-                                Giá tốt - giao hàng - bảo hành toàn quốc 
-                                Trải rộng khắp cả nước với khoảng hơn <strong>100</strong> cửa hàng bán lẻ trên toàn quốc.
+                                Giá tốt - giao hàng - bảo hành toàn quốc, 
+                                trải rộng khắp cả nước với khoảng hơn <strong>100</strong> cửa hàng bán lẻ trên toàn quốc.
                             </p>
                         </div>
                     </div>

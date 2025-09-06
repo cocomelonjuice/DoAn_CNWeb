@@ -178,7 +178,7 @@ include_once './helper/sendMail.php';
                 </div>
             </div>
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-              <input type="submit" name="register" value="Register" class="btn btn-primary btn-lg" data-disable-with="Create account" />
+              <input type="submit" name="register" value="Đăng ký" class="btn btn-primary btn-lg" data-disable-with="Create account" />
             </div>
 
           </form>        
