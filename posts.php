@@ -66,7 +66,7 @@ require_once './db/DB.php';
                             </div>
                         </div>
                         <div class="card-footer d-flex flex-column">
-                            <a href="<?php echo $rootPath?>/post.php?postId=<?php echo $row['post_id']?>" class="btn btn-warning">Xem chi tiết</a>
+                            <a href="<?php echo $rootPath?>/post.php?postId=<?php echo $row['post_id']?>" class="btn btn-primary">Xem chi tiết</a>
                         </div>
                         </div>
                     </div>

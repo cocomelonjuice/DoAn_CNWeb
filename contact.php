@@ -47,7 +47,7 @@ require_once './db/DB.php';
     <div class="col-md-6 m-auto text-center">
         <h1 class="h1">Liên hệ với chúng tôi</h1>
         <p>
-            Bạn có thắc mắc về dịch vụ của chúng ta? Hãy gửi tin nhắn cho chúng tôi tại đây.
+            Bạn có thắc mắc về dịch vụ của chúng tôi. Hãy gửi tin nhắn cho chúng tôi tại đây.
         </p>
     </div>
 </div>
@@ -58,17 +58,17 @@ require_once './db/DB.php';
         <form class="col-md-9 m-auto" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" role="form">
             <div class="row">
                 <div class="form-group col-md-6 mb-3">
-                    <label for="contactName">Tên của bạn</label>
-                    <input type="text" class="form-control mt-1" id="contactName" name="name" placeholder="Enter your name">
+                    <label for="contactName">Tên của bạn*</label>
+                    <input type="text" class="form-control mt-1" id="contactName" name="name" placeholder="Nguyễn Văn A">
                 </div>
                 <div class="form-group col-md-6 mb-3">
-                    <label for="contactEmail">Email</label>
-                    <input type="email" class="form-control mt-1" id="contactEmail" name="email" placeholder=" Enter your email">
+                    <label for="contactEmail">Email*</label>
+                    <input type="email" class="form-control mt-1" id="contactEmail" name="email" placeholder="example@gmail.com">
                 </div>
             </div>
             <div class="mb-3">
-                <label for="contactMessage">Tin nhắn</label>
-                <textarea class="form-control mt-1" id="contactMessage" name="message" placeholder="Message" rows="8"></textarea>
+                <label for="contactMessage">Tin nhắn*</label>
+                <textarea class="form-control mt-1" id="contactMessage" name="message" placeholder="Lời nhắn..." rows="8"></textarea>
             </div>
             <div class="row">
                 <div class="col text-end mt-2">

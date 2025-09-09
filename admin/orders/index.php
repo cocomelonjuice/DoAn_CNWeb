@@ -46,7 +46,7 @@ require_once '../../db/DB.php';
                 <thead class="table-warning">
                     <tr>
                         <th scope="col">STT</th>
-                        <th scope="col">#Mã đơn</th>
+                        <th scope="col">Mã đơn</th>
                         <th scope="col">Người dùng</th>
                         <th scope="col">Nơi giao</th>
                         <th scope="col">Tổng tiền</th>

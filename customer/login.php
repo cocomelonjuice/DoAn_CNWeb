@@ -131,7 +131,7 @@ if (isset($_POST['login_user'])) {
                     
                 ?>
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-              <input type="submit" name="login_user" value="Login" class="btn btn-primary" data-disable-with="Create account" />
+              <input type="submit" name="login_user" value="Đăng nhập" class="btn btn-primary" data-disable-with="Create account" />
             </div>
         </form>        
     </div>

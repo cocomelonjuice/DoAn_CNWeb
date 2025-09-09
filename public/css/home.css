@@ -15,3 +15,13 @@
 .header__nav {
     height: 80px;
 }
+
+.product-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}

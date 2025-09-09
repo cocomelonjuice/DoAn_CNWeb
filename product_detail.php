@@ -42,79 +42,7 @@ if ($product->num_rows > 0) {
                 <div class="card mb-3">
                     <img class="card-img rounded img-fluid" id="product-detail" src="<?php echo $rootPath?>/public/img/products/<?php echo $row["images"]; ?>">
                 </div>
-                <div class="row">
-                    <!--Start Controls-->
-                    <div class="col-1 align-self-center">
-                        <a href="#multi-item-example" role="button" data-bs-slide="prev">
-                            <i class="text-dark fas fa-chevron-left"></i>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </div>
-                    <!--End Controls-->
-                    <!--Start Carousel Wrapper-->
-                    <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
-                        <!--Start Slides-->
-                        <div class="carousel-inner product-links-wap" role="listbox">
-                            <!--First slide-->
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Enormous Rubber Knife" alt="Product Image 1">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Heavy Duty Paper Computer" alt="Product Image 2">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Rustic Marble Knife" alt="Product Image 3">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.First slide-->
-
-                            <!--Second slide-->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Heavy Duty Copper Plate" alt="Product Image 4">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Incredible Wooden Computer" alt="Product Image 5">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Heavy Duty Bronze Coat" alt="Product Image 6">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Second slide-->
-
-                            <!--Third slide-->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Aerodynamic Wool Coat" alt="Product Image 7">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Fantastic Concrete Bag" alt="Product Image 8">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="card-img img-fluid" src="https://source.unsplash.com/600x600/?Fantastic Aluminum Coat" alt="Product Image 9">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Third slide-->
-                        <!--First slide-->
-                        </div>
-                    </div>
-                    <!--End Carousel Wrapper-->
-                    <!--Start Controls-->
-                    <div class="col-1 align-self-center">
-                        <a href="#multi-item-example" role="button" data-bs-slide="next">
-                            <i class="text-dark fas fa-chevron-right"></i>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <!--End Controls-->
-                </div>
+                
             </div>
             <!-- col end -->
             <div class="col-lg-7 mt-5">
@@ -165,7 +93,6 @@ if ($product->num_rows > 0) {
                                             <label class="form-label" for="cart_item_product_stock">Chọn size</label>
                                             </li>
                                                 <select class="form-select" name="" id="cart_item_product_stock">
-                                                    <option value="" label=" "></option>
                                                     <option value="">Size S</option>
                                                     <option value="">Size M</option>
                                                     <option value="">Size L</option>
@@ -179,7 +106,7 @@ if ($product->num_rows > 0) {
                                             </li>
                                             <li class="list-inline-item"><span class="btn btn-secondary" id="btn-minus">-</span></li>
                                             <li class="list-inline-item">
-                                                <input type="number" class="form-control" name="quantity">
+                                                <input type="number" class="form-control" name="quantity" value="1">
                                             </li>
                                             <li class="list-inline-item"><span class="btn btn-secondary" id="btn-plus">+</span></li>
                                         </ul>

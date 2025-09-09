@@ -62,24 +62,9 @@ require_once './db/DB.php';
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.289</td>
-                                        <td>Nguyễn Đức Hậu</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.199</td>
-                                        <td>Trần Thế Quang</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.200</td>
-                                        <td>Võ Trịnh Xuân Nguyên</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">OCB</td>
-                                        <td>0999.888.418.888</td>
-                                        <td>Lý Gia Huy</td>
+                                        <td scope="row">VCB</td>
+                                        <td>0786.892.119.909</td>
+                                        <td>Nguyễn Minh Tiến</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -100,7 +85,7 @@ require_once './db/DB.php';
                             </p>
                             <p class="h6">2.Thanh toán đơn hàng</p>
                             <p>
-                                Khách hàng cần <a href="#">đăng nhập</a> để đặt hàng (<a href="<?php echo $rootPath?>/sign_up.php">đăng kí</a> nếu bạn chưa có tài khoản). Sau đó bạn nhập các thông tin cần thiết theo mẫu để nhân viên xác nhận đơn hàng. 
+                                Khách hàng cần <a href="<?php echo $rootPath?>/customer/login.php">đăng nhập</a> để đặt hàng (<a href="<?php echo $rootPath?>/sign_up.php">đăng kí</a> nếu bạn chưa có tài khoản). Sau đó bạn nhập các thông tin cần thiết theo mẫu để nhân viên xác nhận đơn hàng. 
                             </p>
                         </div>
                     </div>

@@ -34,7 +34,7 @@
 
 
 <div class="container-fluid mt-5 mb-3">
-  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add">Add post</button>
+  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add">Thêm bài viết</button>
   <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="add" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">

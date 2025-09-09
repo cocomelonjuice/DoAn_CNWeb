@@ -7,15 +7,15 @@
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Đại học Bách Khoa, Bình Dương, Việt Nam
+                        TPHCM, Việt Nam
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none text-light" href="tel:+842848786">1800.6936</a>
+                        <a class="text-decoration-none text-light" href="tel:+84765162701">0765162701</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none text-light" href="mailto:shop@gmail.com">shop@gmail.com</a>
+                        <a class="text-decoration-none text-light" href="mailto:blaugrana3ds@gmail.com">blaugrana3ds@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
                         <a class="text-color-primary text-light text-decoration-none rounded-circle text-center" target="_blank" href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                     </li>
                     <li class="list-inline-item text-center">
-                        <a class="text-color-primary text-light text-decoration-none" target="_blank" href="https://github.com/GunKK/Web221_theCoffeeHouse_PHP"><i class="fa-brands fa-github fa-lg fa-fw"></i></a>
+                        <a class="text-color-primary text-light text-decoration-none" target="_blank" href="https://www.google.com/"><i class="fa-brands fa-github fa-lg fa-fw"></i></a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
             <div class="row pt-2">
                 <div class="col-12">
                     <p class="text-center text-light user-select-none">
-                        Copyright &copy; <?echo date('Y')?> Web Assignment - Group 5
+                        Copyright &copy; <?echo date('Y')?> T Coffee
                     </p>
                 </div>
             </div>
